@@ -1,0 +1,16 @@
+Source: libcgal-daily
+Section: graphics
+Priority: optional
+Maintainer: CGAL Developers
+Build-Depends: debhelper (>= 9), cmake, pkg-config, libc6-dev
+Standards-Version: 4.14
+Homepage: https://github.com/CGAL/cgal
+Vcs-Git: https://github.com/CGAL/cgal
+Vcs-Browser: https://github.com/CGAL/cgal
+
+Package: libcgal-daily
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The Computational Geometry Algorithms Library (CGAL) is
+	a C++ library that aims to provide easy access to efficient and
+	reliable algorithms in computational geometry.
